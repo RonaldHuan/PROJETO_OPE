@@ -2,6 +2,7 @@
 include('verifica_login.php');
 ?>
 
+<!--Alterar página index-->
 <!DOCTYPE html>
 <html class="no-js" lang="">
 <head>
