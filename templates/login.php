@@ -47,6 +47,7 @@ session_start();
 					<?php
 						if(isset($_SESSION['nao_autenticado'])):
 					?>
+					<!-- Usuário/Senha informado inválidamente -->
 					<div id="senhaerrada">
 						<p id="msgerrada">Usuário ou senha inválidos</p>
 					</div>	

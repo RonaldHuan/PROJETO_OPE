@@ -6,6 +6,7 @@ if(empty($_POST['username']) || empty($_POST['pass'])){
     exit();
 }
 
+/** validando autenticação e Usuário e senha no banco de dados*/
 $username = mysqli_real_escape_string($conexao, $_POST['username']);
 $password = mysqli_real_escape_string($conexao, $_POST['pass']);
 $query = "select * from login where usuario = '$username' and senha = '$password'";
