@@ -5,33 +5,24 @@ include('verifica_login.php');
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
     <title>Lylli Shoes</title>
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main 3.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/vendor.css">
+    <link rel="stylesheet" href="../static/css/main 3.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="../static/js/modernizr.js"></script>
+    <script src="../static/js/pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="B.ico" type="image/x-icon">
-    <link rel="icon" href="B.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="B.ico" type="../static/image/x-icon">
+    <link rel="icon" href="B.ico" type="../static/image/x-icon">
 
 </head>
 
@@ -49,10 +40,11 @@ include('verifica_login.php');
                 <h3>Menu de opções</h3>
                 
                 <ul class="header-nav__list">
-                    <li><a href="dashboard.html">Relatórios</a></li></br>
-                    <li><a class="smoothscroll"  href="#services" title="services">Cadastro Clientes</a></li></br>
-                    <li><a class="smoothscroll"  href="#works" title="works">Cadastro Produtos</a></li></br>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Cadastro Fornecedor</a></li>
+                    <li><a href="dashboard.php">Relatórios</a></li><br/>
+                    <li><a href="cliente.php" title="services">Cadastro Clientes</a></li><br/>
+                    <li><a href="produto.php" title="works">Cadastro Produtos</a></li><br/>
+                    <li><a href="fornecedor.php" title="contact">Cadastro Fornecedor</a></li><br/>
+                    <li><a href="logaut.php" title="contact">Sair</a></li>
                     
                 </ul>
 
@@ -69,7 +61,7 @@ include('verifica_login.php');
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../static/images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
 
         <div class="shadow-overlay"></div>
 
@@ -137,9 +129,9 @@ include('verifica_login.php');
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main 3.js"></script>
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/plugins.js"></script>
+    <script src="../static/js/main 3.js"></script>
 
 </body>
 
