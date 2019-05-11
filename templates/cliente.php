@@ -76,7 +76,8 @@ include('verifica_login.php');
                             <p><label for="aniversario">Data de Aniversário</label><br/> <input type="text" id="login" name="nome" size="30" maxlength="7" placeholder=" Data de Aniversário"></p><br/>                                                      
                         </div><br/>                                 
                     </fieldset> 
-                </form>                                       
+                </form>
+            </div>                                       
         </select>
     </body>
 </html>
