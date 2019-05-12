@@ -41,6 +41,7 @@ include('verifica_login.php');
             <div class="home-content">
                 <div class="row home-content__main">
                     <h1>Lylli Shoes</h1>
+                    <p><?php echo "Bem vindo " . $_SESSION['username'];?></p>
                 </div> 
             </div>
         </section>
