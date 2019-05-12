@@ -41,7 +41,6 @@ include('verifica_login.php');
             <div class="home-content">
                 <div class="row home-content__main">
                     <h1>Lylli Shoes</h1>
-                    <p>Bem vindo</p>
                 </div> 
             </div>
         </section>

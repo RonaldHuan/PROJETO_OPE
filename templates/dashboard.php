@@ -74,7 +74,7 @@ include('verifica_login.php');
                     <div class="row">
                       <div class="col-sm-6 text-left">
                         <h5 class="card-category">Relatório </h5>
-                        <h2 class="card-title">Performance</h2>
+                        <h2 class="card-title">Anual</h2>
                       </div>
                       <div class="col-sm-6">
                         <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
