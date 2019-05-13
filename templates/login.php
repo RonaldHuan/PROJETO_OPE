@@ -28,7 +28,7 @@ session_start();
 				<form class="login100-form validate-form" name="formlogin" method="POST" action="autenticacao.php">
 					<span class="login100-form-title">
 						<h2>Bem vindo(a)</h2>
-						<p>Informe seu usuário e senha para acessar</p>
+						<p>Informe seu usuário e senha para acessar o sistema</p>
 					</span>
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="username" placeholder="Username">
