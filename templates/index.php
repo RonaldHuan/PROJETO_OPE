@@ -14,8 +14,8 @@ include('verifica_login.php');
         <link rel="stylesheet" href="../static/css/main 3.css">
         <script src="../static/js/modernizr.js"></script>
         <script src="../static/js/pace.min.js"></script>
-        <link rel="shortcut icon" href="B.ico" type="../static/image/x-icon">
-        <link rel="icon" href="B.ico" type="../static/image/x-icon">
+        <link rel="shortcut icon" href="../static/image/x-icon" type="B.ico">
+        <link rel="icon" href="../static/image/x-icon" type="B.ico">
     </head>
     <body id="top">
         <header class="s-header">
