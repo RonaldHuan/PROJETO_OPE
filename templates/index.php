@@ -5,7 +5,7 @@ include('verifica_login.php');
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Lylli Shoes</title>
+        <title>LylliShoes</title>
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,8 +14,8 @@ include('verifica_login.php');
         <link rel="stylesheet" href="../static/css/main 3.css">
         <script src="../static/js/modernizr.js"></script>
         <script src="../static/js/pace.min.js"></script>
-        <link rel="shortcut icon" href="../static/image/x-icon" type="B.ico">
-        <link rel="icon" href="../static/image/x-icon" type="B.ico">
+        <link rel="shortcut icon" href="../static/images/B.ico" type="image/x-icon">
+        <link rel="icon" href="../static/images/B.ico" type="image/x-icon">
     </head>
     <body id="top">
         <header class="s-header">
@@ -24,10 +24,10 @@ include('verifica_login.php');
                 <div class="header-nav__content">
                     <h3>Menu de opções</h3>
                     <ul class="header-nav__list">
-                        <li><a href="dashboard.php">Relatórios</a></li>
+                        <li><a href="#">Relatórios</a></li>
                         <li><a href="cliente.php" title="services">Cadastrar Cliente</a></li>
-                        <li><a href="produto.php" title="works">Cadastrar Produto</a></li>
-                        <li><a href="fornecedor.php" title="contact">Cadastrar Fornecedor</a></li>
+                        <li><a href="#" title="works">Cadastrar Produto</a></li>
+                        <li><a href="#" title="contact">Cadastrar Fornecedor</a></li>
                         <li><a href="logaut.php" title="contact">Sair</a></li> 
                     </ul>
                 </div> 
@@ -36,7 +36,7 @@ include('verifica_login.php');
                 <span class="header-menu-icon"></span>
             </a>
         </header> 
-        <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../static/images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+        <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../static/images/hero-bgp.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
             <div class="shadow-overlay"></div>
             <div class="home-content">
                 <div class="row home-content__main">

@@ -1,5 +1,5 @@
 <?php
-/** Conexão com o banco de dados MY SQL */
+/**Conexão com o banco de dados MY SQL */
 define('HOST', 'lillyshoes.mysql.dbaas.com.br');
 define('USUARIO', 'lillyshoes');
 define('SENHA', 'lillyshoes123');

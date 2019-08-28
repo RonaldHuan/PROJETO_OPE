@@ -2,10 +2,10 @@
 include('verifica_login.php');
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CADASTRO DE FORNECEDOR</title>
@@ -21,7 +21,7 @@ include('verifica_login.php');
         <link rel="stylesheet" href="../static/css/estilo.css">
 </head>
 <body>
-    <section class="banner" role="banner"> 
+        <section class="banner" role="banner">
             <header id="header">
                 <div class="header-content clearfix"> <a class="logo" href="#"><img src="{% static "images/logo.png" %}" alt=""></a>
                     <nav class="navigation" role="navigation">
@@ -33,10 +33,9 @@ include('verifica_login.php');
                 </div>
             </header>
             <div class="container">
-                <div class="col-md-10 col-md-offset-1">
-                <div class="banner-text text-center">
+                <div class="col-md-10 col-md-offset-1"></div>
+                <div class="banner-text text-center"></div>
             </div>
-            <div>
                 <form id="aluno" onsubmit="javascrit: return validacao(cpf)">
                     <fieldset class="grupo">
                         <div class="campo">
@@ -47,8 +46,7 @@ include('verifica_login.php');
                             <p><label for="telefone">Telefone</label><br/>  <input type="tel" id="telefone" name="telefone" size="30" placeholder=" Telefone"></p><br/>                                                      
                         </div><br/>                                 
                     </fieldset> 
-                </form>                                        
-    </select>
-
+                </form>
+        </section>
 </body>
 </html>

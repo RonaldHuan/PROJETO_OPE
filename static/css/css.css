@@ -1,0 +1,55 @@
+                                h11 {
+                                    color: red;
+                                }
+                                
+                                #titulo {
+                                    color: black;
+                                    margin-bottom: 20px;
+                                    padding-bottom: 20px;
+                                    text-align: center;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+                                
+                                #logo {
+                                    width: 50%;
+                                    height: 50%;
+                                }
+                                
+                                .panel-heading {
+                                    font-size: 150%;
+                                }
+                                
+                                nav .navbar-brand,
+                                nav .nav-link.dropdown-toggle {
+                                    font-size: 20px;
+                                    color: black;
+                                    padding-left: 40px;
+                                    margin-bottom: 05px;
+                                    padding-bottom: 30px;
+                                }
+                                
+                                nav .navbar-nav>li>a {
+                                    padding-top: 25px;
+                                    padding-bottom: 15px;
+                                }
+                                
+                                .nav {
+                                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                    font-size: 18px;
+                                    line-height: 1.42857;
+                                    color: black;
+                                    background-color: black;
+                                }
+                                
+                                .bg-light {
+                                    background: -webkit-linear-gradient(400deg, rgb(0, 0, 0),   rgb(0, 0, 0), rgb(0, 0, 0));
+                                }
+                                
+                                .navbar {
+                                    border-radius: 100px;
+                                }
+                                
+                                #navbarDropdown {
+                                    padding-right: 1.5rem;
+                                    padding-left: 1.5rem;
+                                }

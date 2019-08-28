@@ -6,10 +6,10 @@ if(empty($_POST['username']) || empty($_POST['pass'])){
     exit();
 }
 
-/** validando autenticação e Usuário e senha no banco de dados*/
+/** validando autenticação do usuário no banco de dados*/
 $username = mysqli_real_escape_string($conexao, $_POST['username']);
 $password = mysqli_real_escape_string($conexao, $_POST['pass']);
-$query = "select * from login where usuario = '$username' and senha = '$password'";
+$query = "select * from LOGIN where usuario = '$username' and senha = '$password'";
 $result = mysqli_query($conexao, $query) or die(mysqli_error($conexao));
 $row = mysqli_num_rows($result);
 if($row == 1){

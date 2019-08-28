@@ -61,10 +61,9 @@ include('verifica_login.php');
                     </div>
                 </header>
                 <div class="container">
-                    <div class="col-md-10 col-md-offset-1">
-                    <div class="banner-text text-center">
+                    <div class="col-md-10 col-md-offset-1"></div>
+                    <div class="banner-text text-center"></div>
                 </div>
-                <div>
                     <form id="aluno" onsubmit="javascrit: return enviar()">
                         <fieldset class="grupo">
                             <div class="campo">
@@ -76,6 +75,6 @@ include('verifica_login.php');
                             </div><br/>                                 
                         </fieldset> 
                     </form>                                        
-        </select>
+        </section>
     </body>
 </html>

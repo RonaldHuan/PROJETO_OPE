@@ -3,75 +3,53 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Login</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<link rel="icon" type="image/png" href="../static/images/icons/favicon.ico"/>
-	<link rel="stylesheet" href="../static/vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../static/vendor/animate/animate.css">
-	<link rel="stylesheet" href="../static/vendor/css-hamburgers/hamburgers.min.css">
-	<link rel="stylesheet" href="../static/vendor/select2/select2.min.css">
-	<link rel="stylesheet" href="../static/css/util.css">
-	<link rel="stylesheet" href="../static/css/main 2.css">
-	<link rel="stylesheet" href="../static/css/estilo.css">
-</head>
-<body>
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100">
-				<div class="login100-pic js-tilt" data-tilt>
-					<img src="../static/images/img-01.png" alt="IMG">
-				</div>
-				<!-- Formulário de login para acesso ao sistema -->
-				<form class="login100-form validate-form" name="formlogin" method="POST" action="autenticacao.php">
-					<span class="login100-form-title">
-						<h2>Bem vindo(a)</h2>
-						<p>Informe seu usuário e senha para acessar o sistema</p>
-					</span>
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="username" placeholder="Username">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
-					</div>			
-					<?php
-						if(isset($_SESSION['nao_autenticado'])):
-					?>
-					<!-- Usuário/Senha informado inválidamente -->
-					<div id="senhaerrada">
-						<p id="msgerrada">Usuário ou senha inválidos</p>
-					</div>	
-					<?php
-						unset($_SESSION['nao_autenticado']);
-						endif;
-					?>	
-					<div class="container-login100-form-btn">
-						<input class="login100-form-btn" type="submit" value="Login"/>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-	<script src="../static/vendor/jquery/jquery-3.2.1.min.js"></script>
-	<script src="../static/vendor/bootstrap/js/popper.js"></script>
-	<script src="../staticvendor/bootstrap/js/bootstrap.min.js"></script>
-	<script src="../static/vendor/select2/select2.min.js"></script>
-	<script src="../static/vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-	<script src="../staticjs/main 2.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v3.8.5">
+        <title>Login</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/floating-labels/">
+        <link href="../static/css/bootstrap.css" rel="stylesheet">
+        <link href="../static/css/estilo2.css" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/estilo.css">
+    </head>
+    <body>
+        <form class="form-signin" name="formlogin" method="POST" action="autenticacao.php">
+            <div class="text-center mb-4" id="teste">
+                <img class="mb-4" src="../static/images/logo.png" alt="" width="180" height="180">
+                <!--<h3 id="label">LillyShoes</h3>-->
+            </div>
+            <div class="form-label-group">
+                <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Usuário">
+                <label for="inputEmail">Usuário</label>
+            </div>
+
+            <div class="form-label-group">
+                <input type="password" id="inputPassword" name="pass" class="form-control" placeholder="Senha">
+                <label for="inputPassword">Senha</label>
+            </div>
+            <?php
+				if(isset($_SESSION['nao_autenticado'])):
+			?>
+			<!-- Usuário/Senha informado inválidamente -->
+				<div id="senhaerrada">
+					<p id="msgerrada">Usuário ou senha inválido</p>
+				</div>	
+			<?php
+				unset($_SESSION['nao_autenticado']);
+				endif;
+			?>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>-
+            <footer class="my-5 pt-5 text-muted text-center text-small">
+                <p class="mb-1">&copy; 2019 LillyShoes</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Facebook</a></li>
+                    <li class="list-inline-item"><a href="#">Twitter</a></li>
+                    <li class="list-inline-item"><a href="#">Instagram</a></li>
+                </ul>
+            </footer>
+        </form>
+    </body>
 </html>
