@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil');
+@font-face{
+    font-family: 'Secrcode';
+    src: url("../fonts/SECRCODE.TTF");
+}
+h1#fonte {
+    font-family: 'Stardos Stencil';
+    color: #C0C0C0;
+    font-size: 110px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.705);
+    text-align: center;
+}
+
+#cfonte{
+    font-size: 70px;
+}
+
+#stitulo {
+    font-size: 18px;
+    color: #A9A9A9;
+}
+
+form#aluno{
+    border: 1px solid #696969;
+    padding: 15px;
+    margin: 4px;
+    box-shadow: 0px 0px 10px rgba(168, 168, 168, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+legend#laluno{
+    text-align: center;
+    color: #808080;
+}
+
+#olista{
+    font-family: 'arial';
+}
+
+button{
+    color: #808080;
+}
+
+button:hover{
+    color: #000000;
+}
+
+label{
+    color: #C0C0C0;
+}
+
+#senhaerrada{
+    text-align: center;
+    margin: 3px;
+  }
+
+#msgerrada {
+    color: #FF0000;
+}
